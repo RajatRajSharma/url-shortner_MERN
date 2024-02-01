@@ -1,0 +1,23 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "URL_shortener",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "webpack --mode production"
+  },
+  "author": "Rajat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.12.5",
+    "nanoid": "^4.0.2",
+    "nodemon": "^2.0.22",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
